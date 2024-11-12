@@ -1,0 +1,964 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RDataflowDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="8.0.0.179">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>D:\CP Git\Api Flow\simple.API</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <Views />
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>95c6eca5-6172-4698-9941-db125b0e57b6</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>95c6eca5-6172-4698-9941-db125b0e57b6</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>RestInput</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>400</Height>
+            <Width>180</Width>
+            <X>107</X>
+            <Y>151</Y>
+            <IsExpanded>true</IsExpanded>
+            <ActualExpandedHeight>0</ActualExpandedHeight>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Transformation</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Request</Name>
+      </ActionProperties>
+      <DataflowItemDataRestInput>
+        <Name>Request</Name>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="Request" /&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Request</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField DataType="String" Header="q" Index="0" Name="query">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>Unsupported</CoreDbType>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Layout>
+        <ContentType>application/json</ContentType>
+        <EmptyResponseModel>
+          <StatusCode>NotFound</StatusCode>
+          <CustomErrorMessage>The resource you are trying to access was not found, please provide correct parameters and body.</CustomErrorMessage>
+          <IsEmptyBody>false</IsEmptyBody>
+        </EmptyResponseModel>
+        <IsReadOnlyMode>false</IsReadOnlyMode>
+        <OutputLayout xsi:type="XmlLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Xml</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <PolymorphicTypes />
+          <IsJson>false</IsJson>
+          <EncodingName>utf-8</EncodingName>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" TreatAsIfFirstRowContainsHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+            <SchemaFilePath />
+            <SchemaFilePathResolved>
+              <Path />
+              <UncPath />
+            </SchemaFilePathResolved>
+            <ValidationType>None</ValidationType>
+            <SchemaSource>FromFile</SchemaSource>
+          </DefaultReaderOptions>
+          <WriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="" Append="false">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <VectorSeparator>;</VectorSeparator>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <RootElement>Root</RootElement>
+            <SchemaOption>GenerateFromSource</SchemaOption>
+            <PrettyPrint>true</PrettyPrint>
+            <OmitXMLDeclaration>false</OmitXMLDeclaration>
+            <OmitRoot>false</OmitRoot>
+            <FieldToXmlConversion>ConvertFieldsToElements</FieldToXmlConversion>
+            <XmlSchemaFilePath>
+              <Path />
+              <UncPath />
+            </XmlSchemaFilePath>
+          </WriterOptions>
+          <CompiledSchemas />
+          <Namespaces />
+          <AddInnerXml>false</AddInnerXml>
+        </OutputLayout>
+        <Resource>test9</Resource>
+        <RestMethod>Get</RestMethod>
+        <InputLayout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Body</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced>
+            <BaseLayout xsi:type="RecordLayout" IsHierarchicalFile="false">
+              <IsFolder>false</IsFolder>
+              <Id>0</Id>
+              <IsNewRecord>false</IsNewRecord>
+              <Name>root</Name>
+              <Description />
+              <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+              <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+              <IsSharedLayout>false</IsSharedLayout>
+              <LayoutBuildingOptions>
+                <RecordType>Record</RecordType>
+                <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+                <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+              </LayoutBuildingOptions>
+              <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+              <Fields>
+                <RecordField DataType="String" Header="q" Index="0" Name="query">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+              </Fields>
+              <Children />
+              <Referenced />
+              <ValidationRules />
+            </BaseLayout>
+          </Referenced>
+          <ValidationRules />
+        </InputLayout>
+        <Parameters IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Request</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField DataType="String" Header="q" Index="0" Name="query">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>Unsupported</CoreDbType>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Parameters>
+        <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <RequestFormat>None</RequestFormat>
+        <IsRequestBodyRequired>false</IsRequestBodyRequired>
+        <RequestBodyDescription />
+        <Description>Find All test9</Description>
+        <AutoGeneratedDescription>true</AutoGeneratedDescription>
+        <ActionRole>Transformation</ActionRole>
+        <IsApiPublishingObject>true</IsApiPublishingObject>
+        <CreateUniqueFileForUpload>false</CreateUniqueFileForUpload>
+        <ShowAdvanceRequestInfoFields>false</ShowAdvanceRequestInfoFields>
+        <ShowUserContextFields>false</ShowUserContextFields>
+        <RequestProcessingType>Sync</RequestProcessingType>
+      </DataflowItemDataRestInput>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>4596c382-d2f1-4857-a27a-7f103d2b35af</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>4596c382-d2f1-4857-a27a-7f103d2b35af</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>RestOutput</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>435</Height>
+            <Width>180</Width>
+            <X>906</X>
+            <Y>150</Y>
+            <IsExpanded>true</IsExpanded>
+            <ActualExpandedHeight>0</ActualExpandedHeight>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Response</Name>
+      </ActionProperties>
+      <DataflowItemDataRestOutput>
+        <Name>Response</Name>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="Response" /&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Response</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Layout>
+        <ContentType>application/json</ContentType>
+        <EmptyResponseModel>
+          <StatusCode>NotFound</StatusCode>
+          <CustomErrorMessage>The resource you are trying to access was not found, please provide correct parameters and body.</CustomErrorMessage>
+          <IsEmptyBody>false</IsEmptyBody>
+        </EmptyResponseModel>
+        <IsReadOnlyMode>false</IsReadOnlyMode>
+        <OutputLayout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Body</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced>
+            <BaseLayout xsi:type="RecordLayout" IsHierarchicalFile="false">
+              <IsFolder>false</IsFolder>
+              <Id>0</Id>
+              <IsNewRecord>false</IsNewRecord>
+              <Name>root</Name>
+              <Description />
+              <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+              <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+              <IsSharedLayout>false</IsSharedLayout>
+              <LayoutBuildingOptions>
+                <RecordType>Record</RecordType>
+                <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+                <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+              </LayoutBuildingOptions>
+              <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+              <Fields>
+                <RecordField DataType="String" Index="0" Name="CustomerID">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="1" Name="CompanyName">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="2" Name="ContactName">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="3" Name="ContactTitle">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="4" Name="Address">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="5" Name="City">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="6" Name="Region">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="7" Name="PostalCode">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="8" Name="Country">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="9" Name="Phone">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="10" Name="Fax">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="11" Name="aaa">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+              </Fields>
+              <Children />
+              <Referenced />
+              <ValidationRules />
+            </BaseLayout>
+          </Referenced>
+          <ValidationRules />
+        </OutputLayout>
+        <RestMethod>Get</RestMethod>
+        <InputLayout xsi:type="XmlLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Xml</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <PolymorphicTypes />
+          <IsJson>false</IsJson>
+          <EncodingName>utf-8</EncodingName>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" TreatAsIfFirstRowContainsHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+            <SchemaFilePath />
+            <SchemaFilePathResolved>
+              <Path />
+              <UncPath />
+            </SchemaFilePathResolved>
+            <ValidationType>None</ValidationType>
+            <SchemaSource>FromFile</SchemaSource>
+          </DefaultReaderOptions>
+          <WriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="" Append="false">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <VectorSeparator>;</VectorSeparator>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <RootElement>Root</RootElement>
+            <SchemaOption>GenerateFromSource</SchemaOption>
+            <PrettyPrint>true</PrettyPrint>
+            <OmitXMLDeclaration>false</OmitXMLDeclaration>
+            <OmitRoot>false</OmitRoot>
+            <FieldToXmlConversion>ConvertFieldsToElements</FieldToXmlConversion>
+            <XmlSchemaFilePath>
+              <Path />
+              <UncPath />
+            </XmlSchemaFilePath>
+          </WriterOptions>
+          <CompiledSchemas />
+          <Namespaces />
+          <AddInnerXml>false</AddInnerXml>
+        </InputLayout>
+        <Parameters IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Response</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Parameters>
+        <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <SelectionIndex>-1</SelectionIndex>
+        <SelectedCodeLookupKey>OK</SelectedCodeLookupKey>
+        <ResponseFormat>Json</ResponseFormat>
+        <HttpStatusCode>OK</HttpStatusCode>
+        <ActionRole>Normal</ActionRole>
+        <ResponseOptions>
+          <PageSize>10</PageSize>
+          <PaginationPattern>None</PaginationPattern>
+        </ResponseOptions>
+        <UseBodyText>false</UseBodyText>
+        <IsApiPublishingObject>true</IsApiPublishingObject>
+      </DataflowItemDataRestOutput>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>49dfefba-5837-461b-9344-660f48fe9a9b</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>49dfefba-5837-461b-9344-660f48fe9a9b</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DBLookup</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>415</Height>
+            <Width>200</Width>
+            <X>510.03998</X>
+            <Y>170</Y>
+            <IsExpanded>true</IsExpanded>
+            <ActualExpandedHeight>0</ActualExpandedHeight>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>DBLookup</Name>
+      </ActionProperties>
+      <DataflowItemDataDbLookupMap RaiseErrorForUnmappedValue="true" UnmappedValueOption="SetToNull" CacheLookupItems="false" LoadAllItemsAtStart="false" CacheCommitCount="1000">
+        <Name>DBLookup</Name>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="DBLookup" /&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <UnmappedValueErrorWarning>None</UnmappedValueErrorWarning>
+        <MultipleMatchesFoundOption>ReturnFirst</MultipleMatchesFoundOption>
+        <ActionRole>Normal</ActionRole>
+        <PersistentCacheFileName />
+        <PersistentCacheFileNameResolved>
+          <Path />
+          <UncPath />
+        </PersistentCacheFileNameResolved>
+        <RebuildPersistentCacheOnNextRun>false</RebuildPersistentCacheOnNextRun>
+        <CacheType>None</CacheType>
+        <LoadType>LoadOnFirstUse</LoadType>
+        <CommandPoolSize>5</CommandPoolSize>
+        <DbInfo Port="1433" CreateNewTable="true" DataProvider="SqlServer" Server="localhost" Database="NORTHWND" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="E73190FE8B2497A8672FB3626F45E98F1C295B0A0ABCF8817A24E39C4D25BAF8" TableName="Customers" TableSchema="dbo">
+          <FtpConnectInfo>
+            <Authentication>
+              <AuthenticationMethod>None</AuthenticationMethod>
+              <ConsumerKey />
+              <ConsuerSecret />
+              <RequestTokenTimeout>60</RequestTokenTimeout>
+              <UserName />
+              <Password />
+              <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+            </Authentication>
+            <Proxy>
+              <UseProxy>false</UseProxy>
+              <ProxyPort>8080</ProxyPort>
+              <ProxyType>Socks4</ProxyType>
+              <LogLevel>Off</LogLevel>
+              <ProxyLoginName />
+              <ProxyPassword />
+            </Proxy>
+            <TransportSecurity>
+              <SecurityType>None</SecurityType>
+              <CertificateFilePath>
+                <Path />
+                <UncPath />
+              </CertificateFilePath>
+              <CertificatePassword />
+              <PrivateKey />
+              <IntegrityProtectionType>None</IntegrityProtectionType>
+            </TransportSecurity>
+            <Port>21</Port>
+            <Timeout>30</Timeout>
+            <RetryCount>4</RetryCount>
+            <RequireSSL>false</RequireSSL>
+            <UserName />
+            <Password />
+            <LogLevel>Off</LogLevel>
+            <EmailProtocol>Imap</EmailProtocol>
+            <Type>Local</Type>
+            <sharedConnectionName />
+            <WebProtocol>Ftp</WebProtocol>
+            <Protocol>Ftp</Protocol>
+            <Details xsi:type="FtpsProtocolDetails">
+              <UseProxy>false</UseProxy>
+              <ProxyPort>8080</ProxyPort>
+              <ProxyType>Socks4</ProxyType>
+              <LogLevel>Off</LogLevel>
+              <DisableSftp4>false</DisableSftp4>
+              <ProxyLoginName />
+              <ProxyPassword />
+              <PassiveMode>true</PassiveMode>
+              <SecurityType>None</SecurityType>
+              <AllowTls1>false</AllowTls1>
+              <AllowSsl3>false</AllowSsl3>
+              <AllowedSuites>AllCiphers</AllowedSuites>
+              <ClearCommandChannel>false</ClearCommandChannel>
+              <DirectoryChangeRequired>false</DirectoryChangeRequired>
+              <AcceptIfCertificateNotAuthenticated>false</AcceptIfCertificateNotAuthenticated>
+              <SecureConnection>false</SecureConnection>
+              <KeepSessionAliveDuringTransfer>false</KeepSessionAliveDuringTransfer>
+              <SessionKeepAliveInterval>30</SessionKeepAliveInterval>
+            </Details>
+            <ProviderType>None</ProviderType>
+          </FtpConnectInfo>
+          <NoSqlProvider>MongoDb</NoSqlProvider>
+        </DbInfo>
+        <SharingConnection>false</SharingConnection>
+        <PushdownKeysAreUnique>false</PushdownKeysAreUnique>
+        <VectorComparisonOptions>
+          <Operator>CosineSimilar</Operator>
+          <Threshold>0</Threshold>
+        </VectorComparisonOptions>
+        <LookupMeta>
+          <IsCaseSensitive>true</IsCaseSensitive>
+          <Children />
+          <Elements>
+            <LookupMetaElement>
+              <DbDataTypeName>nchar</DbDataTypeName>
+              <CoreDbType>NChar</CoreDbType>
+              <Name>CustomerID</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>5</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>CustomerID</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>CompanyName</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>40</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>CompanyName</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>ContactName</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>30</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>ContactName</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>ContactTitle</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>30</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>ContactTitle</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>Address</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>60</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>Address</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>City</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>15</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>City</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>Region</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>15</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>Region</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>PostalCode</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>10</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>PostalCode</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>Country</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>15</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>Country</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>Phone</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>24</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>Phone</ColumnName>
+            </LookupMetaElement>
+            <LookupMetaElement>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <CoreDbType>NVarChar</CoreDbType>
+              <Name>Fax</Name>
+              <HasCollections>false</HasCollections>
+              <IsPrimaryKey>false</IsPrimaryKey>
+              <DataType>String</DataType>
+              <CanRead>true</CanRead>
+              <CanWrite>true</CanWrite>
+              <DbProviderType>SqlServer</DbProviderType>
+              <Length>24</Length>
+              <DecimalLength>0</DecimalLength>
+              <ColumnName>Fax</ColumnName>
+            </LookupMetaElement>
+          </Elements>
+          <Referenced />
+          <Name>DBLookup</Name>
+        </LookupMeta>
+        <InputParameters />
+        <NeedsRebuildingLayout>false</NeedsRebuildingLayout>
+        <KeepDatabaseConnectionsOpen>false</KeepDatabaseConnectionsOpen>
+        <NumberOfConnectionsToKeepOpen>5</NumberOfConnectionsToKeepOpen>
+        <TableInfo>
+          <IsChecked>false</IsChecked>
+          <Name>Customers</Name>
+          <Database>NORTHWND</Database>
+          <TableType>Table</TableType>
+          <Schema>dbo</Schema>
+          <DataModelEntityType>Unknown</DataModelEntityType>
+          <ExistsInModel>false</ExistsInModel>
+          <ActionName>Customers</ActionName>
+        </TableInfo>
+        <DynamicLookupCacheOption>InsertOnly</DynamicLookupCacheOption>
+      </DataflowItemDataDbLookupMap>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>9d50a532-641e-42d3-bc88-eed1218d9726</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>9d50a532-641e-42d3-bc88-eed1218d9726</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Parameters</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>489.04</X>
+            <Y>688</Y>
+            <IsExpanded>true</IsExpanded>
+            <ActualExpandedHeight>0</ActualExpandedHeight>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Variables</Name>
+      </ActionProperties>
+      <DataflowItemDataParameter>
+        <Name>Variables</Name>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="Variables" /&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <Parameters>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>aaa</Name>
+            <CurrentValueStr>test</CurrentValueStr>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+            <IsDynamic>false</IsDynamic>
+            <ValueType>Default</ValueType>
+            <SupportsInterpolation>false</SupportsInterpolation>
+          </ParameterInfoBase>
+        </Parameters>
+      </DataflowItemDataParameter>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.Fax</Start>
+      <End>Response.Body.root.Fax</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.CustomerID</Start>
+      <End>Response.Body.root.CustomerID</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.CompanyName</Start>
+      <End>Response.Body.root.CompanyName</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.ContactName</Start>
+      <End>Response.Body.root.ContactName</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.ContactTitle</Start>
+      <End>Response.Body.root.ContactTitle</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.Address</Start>
+      <End>Response.Body.root.Address</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.City</Start>
+      <End>Response.Body.root.City</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.Region</Start>
+      <End>Response.Body.root.Region</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.PostalCode</Start>
+      <End>Response.Body.root.PostalCode</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.Country</Start>
+      <End>Response.Body.root.Country</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.Phone</Start>
+      <End>Response.Body.root.Phone</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Variables.aaa</Start>
+      <End>Response.Body.root.aaa</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Request.Parameters.query</Start>
+      <End>DBLookup.CustomerID</End>
+    </FlowDocumentItemMap>
+  </Maps>
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>3e08405a-426d-4515-a4d6-8bde4c320a99</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Item1>107</Item1>
+      <Item2>135</Item2>
+      <Item3>979</Item3>
+      <Item4>768</Item4>
+    </DocumentBounds>
+    <DocumentPosition>
+      <Item1>0</Item1>
+      <Item2>0</Item2>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <IsSelected>false</IsSelected>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <Repository>D:\CP Git\API.cprj</Repository>
+  <IsReadyForPreview>false</IsReadyForPreview>
+  <MapsOptimizationInfo />
+  <IsDeployed>false</IsDeployed>
+  <PlotPath />
+  <CanPushdown>true</CanPushdown>
+</RDataflowDocument>
