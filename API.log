@@ -1,0 +1,4 @@
+ MessageType, ItemPath, Message
+Error, D:\CP Git\Api Flow\test2.API, Request: No outgoing maps defined. You must define at least one outgoing map.
+
+
