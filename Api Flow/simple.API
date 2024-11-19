@@ -416,6 +416,18 @@
                   <CoreDbType>Unsupported</CoreDbType>
                   <DecimalLength>0</DecimalLength>
                 </RecordField>
+                <RecordField DataType="String" Index="12" Name="aaa_1">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
+                <RecordField DataType="String" Index="13" Name="aaa_2">
+                  <AggregateFunction>Last</AggregateFunction>
+                  <DbProviderType>SqlServer</DbProviderType>
+                  <CoreDbType>Unsupported</CoreDbType>
+                  <DecimalLength>0</DecimalLength>
+                </RecordField>
               </Fields>
               <Children />
               <Referenced />
@@ -926,10 +938,26 @@
       <Start>Request.Parameters.query</Start>
       <End>DBLookup.CustomerID</End>
     </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.Phone</Start>
+      <End>Response.Body.root.Phone</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.Fax</Start>
+      <End>Response.Body.root.Fax</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Variables.aaa</Start>
+      <End>Response.Body.root.aaa_1</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Variables.aaa</Start>
+      <End>Response.Body.root.aaa_2</End>
+    </FlowDocumentItemMap>
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>809fbd8e-8b7a-473e-b63c-3f0ecba35061</UniqueId>
+    <UniqueId>89a29b4d-8d95-41b5-b730-dc0e9c45fe6d</UniqueId>
     <Actions />
     <DocumentBounds>
       <Item1>156.20045471191406</Item1>
