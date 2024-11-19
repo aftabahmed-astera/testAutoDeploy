@@ -883,10 +883,6 @@
   <Links />
   <Maps>
     <FlowDocumentItemMap>
-      <Start>DBLookup.Fax</Start>
-      <End>Response.Body.root.Fax</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
       <Start>DBLookup.CustomerID</Start>
       <End>Response.Body.root.CustomerID</End>
     </FlowDocumentItemMap>
@@ -937,7 +933,7 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>c16e626c-8ecb-44b8-ac3b-d64301030a2f</UniqueId>
+    <UniqueId>213d824a-2e72-4929-8ea6-074666c4febc</UniqueId>
     <Actions />
     <DocumentBounds>
       <Item1>156.20045471191406</Item1>
