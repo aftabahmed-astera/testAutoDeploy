@@ -903,10 +903,6 @@
       <End>Response.Body.root.aaa</End>
     </FlowDocumentItemMap>
     <FlowDocumentItemMap>
-      <Start>Request.Parameters.query</Start>
-      <End>DBLookup.CustomerID</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
       <Start>DBLookup.Phone</Start>
       <End>Response.Body.root.Phone</End>
     </FlowDocumentItemMap>
@@ -917,7 +913,7 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>9a0d740e-6143-4b54-8569-64a4c58b4601</UniqueId>
+    <UniqueId>3b508456-ea75-4cfb-afe9-64b1b1a18bd9</UniqueId>
     <Actions />
     <DocumentBounds>
       <Item1>45.20045471191406</Item1>
