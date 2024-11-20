@@ -28,8 +28,8 @@
           <NormalBounds>
             <Height>400</Height>
             <Width>180</Width>
-            <X>47.200455</X>
-            <Y>305</Y>
+            <X>45.200455</X>
+            <Y>263</Y>
             <IsExpanded>true</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -887,10 +887,6 @@
       <End>Response.Body.root.CompanyName</End>
     </FlowDocumentItemMap>
     <FlowDocumentItemMap>
-      <Start>DBLookup.ContactName</Start>
-      <End>Response.Body.root.ContactName</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
       <Start>DBLookup.ContactTitle</Start>
       <End>Response.Body.root.ContactTitle</End>
     </FlowDocumentItemMap>
@@ -899,20 +895,8 @@
       <End>Response.Body.root.Address</End>
     </FlowDocumentItemMap>
     <FlowDocumentItemMap>
-      <Start>DBLookup.City</Start>
-      <End>Response.Body.root.City</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
-      <Start>DBLookup.Region</Start>
-      <End>Response.Body.root.Region</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
       <Start>DBLookup.PostalCode</Start>
       <End>Response.Body.root.PostalCode</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
-      <Start>DBLookup.Country</Start>
-      <End>Response.Body.root.Country</End>
     </FlowDocumentItemMap>
     <FlowDocumentItemMap>
       <Start>Variables.aaa</Start>
@@ -933,12 +917,12 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>8547a6c5-7935-4332-80a6-86616847ea77</UniqueId>
+    <UniqueId>9a0d740e-6143-4b54-8569-64a4c58b4601</UniqueId>
     <Actions />
     <DocumentBounds>
-      <Item1>47.20045471191406</Item1>
+      <Item1>45.20045471191406</Item1>
       <Item2>135</Item2>
-      <Item3>1038.799560546875</Item3>
+      <Item3>1040.799560546875</Item3>
       <Item4>773</Item4>
     </DocumentBounds>
     <DocumentPosition>
