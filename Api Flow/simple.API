@@ -28,8 +28,8 @@
           <NormalBounds>
             <Height>400</Height>
             <Width>180</Width>
-            <X>90.200455</X>
-            <Y>230</Y>
+            <X>45.200455</X>
+            <Y>248</Y>
             <IsExpanded>true</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -910,15 +910,19 @@
       <Start>DBLookup.Fax</Start>
       <End>Response.Body.root.Fax</End>
     </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Request.Parameters.query</Start>
+      <End>DBLookup.CustomerID</End>
+    </FlowDocumentItemMap>
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>f461d54c-27a6-49e1-a5c6-67d2c935613c</UniqueId>
+    <UniqueId>35a4ec56-c62a-42bd-9bfc-151b5873502f</UniqueId>
     <Actions />
     <DocumentBounds>
-      <Item1>90.20045471191406</Item1>
+      <Item1>45.20045471191406</Item1>
       <Item2>135</Item2>
-      <Item3>995.799560546875</Item3>
+      <Item3>1040.799560546875</Item3>
       <Item4>758</Item4>
     </DocumentBounds>
     <DocumentPosition>
