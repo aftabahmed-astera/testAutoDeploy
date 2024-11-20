@@ -28,8 +28,8 @@
           <NormalBounds>
             <Height>400</Height>
             <Width>180</Width>
-            <X>84.200455</X>
-            <Y>152</Y>
+            <X>90.200455</X>
+            <Y>230</Y>
             <IsExpanded>true</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -913,12 +913,12 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>b61df1cc-9b83-45b4-8970-a26b89e85dd3</UniqueId>
+    <UniqueId>f461d54c-27a6-49e1-a5c6-67d2c935613c</UniqueId>
     <Actions />
     <DocumentBounds>
-      <Item1>84.20045471191406</Item1>
+      <Item1>90.20045471191406</Item1>
       <Item2>135</Item2>
-      <Item3>1001.799560546875</Item3>
+      <Item3>995.799560546875</Item3>
       <Item4>758</Item4>
     </DocumentBounds>
     <DocumentPosition>
