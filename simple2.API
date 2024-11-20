@@ -28,8 +28,8 @@
           <NormalBounds>
             <Height>400</Height>
             <Width>180</Width>
-            <X>28.200455</X>
-            <Y>128</Y>
+            <X>92.200455</X>
+            <Y>98</Y>
             <IsExpanded>true</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -264,8 +264,8 @@
           <NormalBounds>
             <Height>435</Height>
             <Width>180</Width>
-            <X>906</X>
-            <Y>150</Y>
+            <X>884</X>
+            <Y>43</Y>
             <IsExpanded>true</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -875,13 +875,13 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>037cac04-b82b-473f-a953-804b2b094a78</UniqueId>
+    <UniqueId>4a4a435f-75b8-478b-8370-b00383120595</UniqueId>
     <Actions />
     <DocumentBounds>
-      <Item1>28.200454711914062</Item1>
-      <Item2>128</Item2>
-      <Item3>1057.799560546875</Item3>
-      <Item4>472</Item4>
+      <Item1>92.20045471191406</Item1>
+      <Item2>43</Item2>
+      <Item3>971.799560546875</Item3>
+      <Item4>557</Item4>
     </DocumentBounds>
     <DocumentPosition>
       <Item1>0</Item1>
