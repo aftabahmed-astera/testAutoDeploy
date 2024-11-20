@@ -869,7 +869,7 @@
         <Parameters>
           <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
             <Name>aaa</Name>
-            <CurrentValueStr>test</CurrentValueStr>
+            <CurrentValueStr>one</CurrentValueStr>
             <DataType>String</DataType>
             <Direction>Input</Direction>
             <IsDynamic>false</IsDynamic>
@@ -937,7 +937,7 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>e7435041-8464-498c-97cf-e4bc64bae35d</UniqueId>
+    <UniqueId>b4533ce5-43e4-488f-a1ae-235ae54555f1</UniqueId>
     <Actions />
     <DocumentBounds>
       <Item1>10.200454711914062</Item1>

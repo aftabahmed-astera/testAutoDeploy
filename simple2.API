@@ -829,10 +829,6 @@
   <Links />
   <Maps>
     <FlowDocumentItemMap>
-      <Start>DBLookup.CustomerID</Start>
-      <End>Response.Body.root.CustomerID</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
       <Start>DBLookup.CompanyName</Start>
       <End>Response.Body.root.CompanyName</End>
     </FlowDocumentItemMap>
@@ -879,7 +875,7 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>9e38dbe5-9ea3-42da-8466-631905e15aef</UniqueId>
+    <UniqueId>7e52efd3-5eb8-4b88-8c1f-a040f54c347a</UniqueId>
     <Actions />
     <DocumentBounds>
       <Item1>13.200454711914062</Item1>
