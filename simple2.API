@@ -857,10 +857,6 @@
       <End>Response.Body.root.PostalCode</End>
     </FlowDocumentItemMap>
     <FlowDocumentItemMap>
-      <Start>DBLookup.Country</Start>
-      <End>Response.Body.root.Country</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
       <Start>Request.Parameters.query</Start>
       <End>DBLookup.CustomerID</End>
     </FlowDocumentItemMap>
@@ -872,10 +868,14 @@
       <Start>DBLookup.Fax</Start>
       <End>Response.Body.root.Fax</End>
     </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DBLookup.CustomerID</Start>
+      <End>Response.Body.root.CustomerID</End>
+    </FlowDocumentItemMap>
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>7e52efd3-5eb8-4b88-8c1f-a040f54c347a</UniqueId>
+    <UniqueId>9426dfb5-eb7b-4365-995a-9478ad09399c</UniqueId>
     <Actions />
     <DocumentBounds>
       <Item1>13.200454711914062</Item1>

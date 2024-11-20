@@ -28,8 +28,8 @@
           <NormalBounds>
             <Height>400</Height>
             <Width>180</Width>
-            <X>86.200455</X>
-            <Y>203</Y>
+            <X>78.200455</X>
+            <Y>187</Y>
             <IsExpanded>true</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -883,10 +883,6 @@
   <Links />
   <Maps>
     <FlowDocumentItemMap>
-      <Start>DBLookup.CustomerID</Start>
-      <End>Response.Body.root.CustomerID</End>
-    </FlowDocumentItemMap>
-    <FlowDocumentItemMap>
       <Start>DBLookup.CompanyName</Start>
       <End>Response.Body.root.CompanyName</End>
     </FlowDocumentItemMap>
@@ -937,12 +933,12 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>bab91d7f-ee6d-402c-9f78-c9c995a34196</UniqueId>
+    <UniqueId>418a119d-20b2-4883-bb0d-044d38083336</UniqueId>
     <Actions />
     <DocumentBounds>
-      <Item1>86.20045471191406</Item1>
+      <Item1>78.20045471191406</Item1>
       <Item2>135</Item2>
-      <Item3>999.799560546875</Item3>
+      <Item3>1007.799560546875</Item3>
       <Item4>768</Item4>
     </DocumentBounds>
     <DocumentPosition>
