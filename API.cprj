@@ -41,6 +41,16 @@
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>simple2.API</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>simple2.API.Catalog</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
@@ -74,6 +84,16 @@
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
         <Name>Dataflow1.Df.Catalog</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>simple2.API</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>simple2.API.Catalog</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
