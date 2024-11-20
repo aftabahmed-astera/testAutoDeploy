@@ -1,0 +1,983 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataflowDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="8.0.0.179">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>D:\CP Git\Dataflow2.Df</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <Views />
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>c20337ce-f889-4533-8a1f-bdc0b2d7ce93</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>c20337ce-f889-4533-8a1f-bdc0b2d7ce93</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DatabaseSource</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>108.03999</X>
+            <Y>196</Y>
+            <IsExpanded>true</IsExpanded>
+            <ActualExpandedHeight>0</ActualExpandedHeight>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>DatabaseSource</Name>
+      </ActionProperties>
+      <DataflowItemDataSourceDatabase>
+        <Name>DatabaseSource</Name>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="DatabaseSource" /&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <Layout xsi:type="DbLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>DatabaseSource</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Database</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <DbLayoutField DataType="Integer" IsPrimaryKey="true" Index="0" AllowsNull="false" Name="EmployeeID" DbDataTypeName="int" CoreDbType="Int32" IsSystemGenerated="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="20" DataType="String" Index="1" AllowsNull="false" Name="LastName" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="10" DataType="String" Index="2" AllowsNull="false" Name="FirstName" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="30" DataType="String" Index="3" Name="Title" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="25" DataType="String" Index="4" Name="TitleOfCourtesy" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField DataType="Date" Index="5" Name="BirthDate" DbDataTypeName="date" CoreDbType="DateTime">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField DataType="Date" Index="6" Name="HireDate" DbDataTypeName="date" CoreDbType="DateTime">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="60" DataType="String" Index="7" Name="Address" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="15" DataType="String" Index="8" Name="City" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="15" DataType="String" Index="9" Name="Region" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="10" DataType="String" Index="10" Name="PostalCode" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="15" DataType="String" Index="11" Name="Country" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="24" DataType="String" Index="12" Name="HomePhone" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField Length="4" DataType="String" Index="13" Name="Extension" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField DataType="Image" Index="14" Name="Photo" DbDataTypeName="image" CoreDbType="Blob">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField DataType="String" Index="15" Name="Notes" DbDataTypeName="char" CoreDbType="NText">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+            <DbLayoutField DataType="Integer" Index="16" Name="ReportsTo" DbDataTypeName="int" CoreDbType="Int32">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <IsForeignKey>true</IsForeignKey>
+            </DbLayoutField>
+            <DbLayoutField Length="255" DataType="String" Index="17" Name="PhotoPath" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
+              <AggregateFunction>None</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+            </DbLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DbInfo Port="1433" CreateNewTable="true" DataProvider="SqlServer" Server="localhost" Database="NORTHWND" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="E73190FE8B2497A8672FB3626F45E98F1C295B0A0ABCF8817A24E39C4D25BAF8" TableName="Employees" TableSchema="dbo">
+            <FtpConnectInfo>
+              <Authentication>
+                <AuthenticationMethod>None</AuthenticationMethod>
+                <ConsumerKey />
+                <ConsuerSecret />
+                <RequestTokenTimeout>60</RequestTokenTimeout>
+                <UserName />
+                <Password />
+                <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+              </Authentication>
+              <Proxy>
+                <UseProxy>false</UseProxy>
+                <ProxyPort>8080</ProxyPort>
+                <ProxyType>Socks4</ProxyType>
+                <LogLevel>Off</LogLevel>
+                <ProxyLoginName />
+                <ProxyPassword />
+              </Proxy>
+              <TransportSecurity>
+                <SecurityType>None</SecurityType>
+                <CertificateFilePath>
+                  <Path />
+                  <UncPath />
+                </CertificateFilePath>
+                <CertificatePassword />
+                <PrivateKey />
+                <IntegrityProtectionType>None</IntegrityProtectionType>
+              </TransportSecurity>
+              <Port>21</Port>
+              <Timeout>30</Timeout>
+              <RetryCount>4</RetryCount>
+              <RequireSSL>false</RequireSSL>
+              <UserName />
+              <Password />
+              <LogLevel>Off</LogLevel>
+              <EmailProtocol>Imap</EmailProtocol>
+              <Type>Local</Type>
+              <sharedConnectionName />
+              <WebProtocol>Ftp</WebProtocol>
+              <Protocol>Ftp</Protocol>
+              <Details xsi:type="FtpsProtocolDetails">
+                <UseProxy>false</UseProxy>
+                <ProxyPort>8080</ProxyPort>
+                <ProxyType>Socks4</ProxyType>
+                <LogLevel>Off</LogLevel>
+                <DisableSftp4>false</DisableSftp4>
+                <ProxyLoginName />
+                <ProxyPassword />
+                <PassiveMode>true</PassiveMode>
+                <SecurityType>None</SecurityType>
+                <AllowTls1>false</AllowTls1>
+                <AllowSsl3>false</AllowSsl3>
+                <AllowedSuites>AllCiphers</AllowedSuites>
+                <ClearCommandChannel>false</ClearCommandChannel>
+                <DirectoryChangeRequired>false</DirectoryChangeRequired>
+                <AcceptIfCertificateNotAuthenticated>false</AcceptIfCertificateNotAuthenticated>
+                <SecureConnection>false</SecureConnection>
+                <KeepSessionAliveDuringTransfer>false</KeepSessionAliveDuringTransfer>
+                <SessionKeepAliveInterval>30</SessionKeepAliveInterval>
+              </Details>
+              <ProviderType>None</ProviderType>
+            </FtpConnectInfo>
+            <NoSqlProvider>MongoDb</NoSqlProvider>
+          </DbInfo>
+          <LoadKeys />
+          <ForeignKeys>
+            <ForeignKey ConstraintName="FK_Employees_Employees">
+              <IsChecked>false</IsChecked>
+              <Name>FK_Employees_Employees</Name>
+              <IsCaseSensitive>false</IsCaseSensitive>
+              <ReferencedTable>
+                <IsChecked>false</IsChecked>
+                <Name>Employees</Name>
+                <TableType>Table</TableType>
+                <Schema>dbo</Schema>
+                <DataModelEntityType>Unknown</DataModelEntityType>
+                <ExistsInModel>false</ExistsInModel>
+                <ActionName>Employees</ActionName>
+              </ReferencedTable>
+              <Table>
+                <IsChecked>false</IsChecked>
+                <Name>Employees</Name>
+                <TableType>Table</TableType>
+                <Schema>dbo</Schema>
+                <DataModelEntityType>Unknown</DataModelEntityType>
+                <ExistsInModel>false</ExistsInModel>
+                <ActionName>Employees</ActionName>
+              </Table>
+              <Columns>
+                <ForeignKeyColumn ForeignColumn="ReportsTo" PrimaryColumn="EmployeeID" />
+              </Columns>
+            </ForeignKey>
+          </ForeignKeys>
+          <ReferencingForeignKeys>
+            <ForeignKey ConstraintName="FK_Orders_Employees" ParentAlias="FK_Orders_Employees">
+              <IsChecked>false</IsChecked>
+              <Name>FK_Orders_Employees</Name>
+              <IsCaseSensitive>false</IsCaseSensitive>
+              <ReferencedTable>
+                <IsChecked>false</IsChecked>
+                <Name>Employees</Name>
+                <TableType>Table</TableType>
+                <Schema>dbo</Schema>
+                <DataModelEntityType>Unknown</DataModelEntityType>
+                <ExistsInModel>false</ExistsInModel>
+                <ActionName>Employees</ActionName>
+              </ReferencedTable>
+              <Table>
+                <IsChecked>false</IsChecked>
+                <Name>Orders</Name>
+                <TableType>Table</TableType>
+                <Schema>dbo</Schema>
+                <DataModelEntityType>Unknown</DataModelEntityType>
+                <ExistsInModel>false</ExistsInModel>
+                <ActionName>Orders</ActionName>
+              </Table>
+              <Columns>
+                <ForeignKeyColumn ForeignColumn="EmployeeID" PrimaryColumn="EmployeeID" />
+              </Columns>
+            </ForeignKey>
+            <ForeignKey ConstraintName="FK_EmployeeTerritories_Employees" ParentAlias="FK_EmployeeTerritories_Employees">
+              <IsChecked>false</IsChecked>
+              <Name>FK_EmployeeTerritories_Employees</Name>
+              <IsCaseSensitive>false</IsCaseSensitive>
+              <ReferencedTable>
+                <IsChecked>false</IsChecked>
+                <Name>Employees</Name>
+                <TableType>Table</TableType>
+                <Schema>dbo</Schema>
+                <DataModelEntityType>Unknown</DataModelEntityType>
+                <ExistsInModel>false</ExistsInModel>
+                <ActionName>Employees</ActionName>
+              </ReferencedTable>
+              <Table>
+                <IsChecked>false</IsChecked>
+                <Name>EmployeeTerritories</Name>
+                <TableType>Table</TableType>
+                <Schema>dbo</Schema>
+                <DataModelEntityType>Unknown</DataModelEntityType>
+                <ExistsInModel>false</ExistsInModel>
+                <ActionName>EmployeeTerritories</ActionName>
+              </Table>
+              <Columns>
+                <ForeignKeyColumn ForeignColumn="EmployeeID" PrimaryColumn="EmployeeID" />
+              </Columns>
+            </ForeignKey>
+            <ForeignKey ConstraintName="FK_Employees_Employees" ParentAlias="FK_Employees_Employees">
+              <IsChecked>false</IsChecked>
+              <Name>FK_Employees_Employees</Name>
+              <IsCaseSensitive>false</IsCaseSensitive>
+              <ReferencedTable>
+                <IsChecked>false</IsChecked>
+                <Name>Employees</Name>
+                <TableType>Table</TableType>
+                <Schema>dbo</Schema>
+                <DataModelEntityType>Unknown</DataModelEntityType>
+                <ExistsInModel>false</ExistsInModel>
+                <ActionName>Employees</ActionName>
+              </ReferencedTable>
+              <Table>
+                <IsChecked>false</IsChecked>
+                <Name>Employees</Name>
+                <TableType>Table</TableType>
+                <Schema>dbo</Schema>
+                <DataModelEntityType>Unknown</DataModelEntityType>
+                <ExistsInModel>false</ExistsInModel>
+                <ActionName>Employees</ActionName>
+              </Table>
+              <Columns>
+                <ForeignKeyColumn ForeignColumn="ReportsTo" PrimaryColumn="EmployeeID" />
+              </Columns>
+            </ForeignKey>
+          </ReferencingForeignKeys>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" PartitionTable="false" FavorLocalLayout="false" PartitionCount="1" PartitionKeyField="EmployeeID" AllowPartitionFilter="false" TrimStrings="true" ShowCollections="false">
+            <FilterRules />
+            <WhereClause />
+            <DoNotAddWhereKeywordToUserWhereClause>false</DoNotAddWhereKeywordToUserWhereClause>
+            <CdcInfo>
+              <LastRunMaxTime>0001-01-01T00:00:00</LastRunMaxTime>
+              <CurrentRunMaxTime>0001-01-01T00:00:00</CurrentRunMaxTime>
+              <RevertCdcUpdate>false</RevertCdcUpdate>
+            </CdcInfo>
+            <IncrementalReadStrategy>None</IncrementalReadStrategy>
+            <PartitionKeyValues />
+            <IncrementalTransferKeys />
+            <IncrementalTransferFilePath>
+              <Path />
+              <UncPath />
+            </IncrementalTransferFilePath>
+            <PerformFullLoad>false</PerformFullLoad>
+            <DeleteInDestinationIfDeletedFromSource>false</DeleteInDestinationIfDeletedFromSource>
+          </DefaultReaderOptions>
+          <PrimaryKey>
+            <string>EmployeeID</string>
+          </PrimaryKey>
+          <AllowsScd3AndScd6FieldRoles>true</AllowsScd3AndScd6FieldRoles>
+          <IsCaseSensitive>false</IsCaseSensitive>
+          <HasContext>false</HasContext>
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Normal</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <CanPushdown>true</CanPushdown>
+        <IsDynamicLayout>false</IsDynamicLayout>
+        <DynamicLayoutOptions>
+          <DeleteFieldsInSubsequentObjects>true</DeleteFieldsInSubsequentObjects>
+          <AddFieldsInSubsequentObjects>true</AddFieldsInSubsequentObjects>
+        </DynamicLayoutOptions>
+        <DbInfo Port="1433" CreateNewTable="true" DataProvider="SqlServer" Server="localhost" Database="NORTHWND" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="E73190FE8B2497A8672FB3626F45E98F1C295B0A0ABCF8817A24E39C4D25BAF8" TableName="Employees" TableSchema="dbo">
+          <FtpConnectInfo>
+            <Authentication>
+              <AuthenticationMethod>None</AuthenticationMethod>
+              <ConsumerKey />
+              <ConsuerSecret />
+              <RequestTokenTimeout>60</RequestTokenTimeout>
+              <UserName />
+              <Password />
+              <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+            </Authentication>
+            <Proxy>
+              <UseProxy>false</UseProxy>
+              <ProxyPort>8080</ProxyPort>
+              <ProxyType>Socks4</ProxyType>
+              <LogLevel>Off</LogLevel>
+              <ProxyLoginName />
+              <ProxyPassword />
+            </Proxy>
+            <TransportSecurity>
+              <SecurityType>None</SecurityType>
+              <CertificateFilePath>
+                <Path />
+                <UncPath />
+              </CertificateFilePath>
+              <CertificatePassword />
+              <PrivateKey />
+              <IntegrityProtectionType>None</IntegrityProtectionType>
+            </TransportSecurity>
+            <Port>21</Port>
+            <Timeout>30</Timeout>
+            <RetryCount>4</RetryCount>
+            <RequireSSL>false</RequireSSL>
+            <UserName />
+            <Password />
+            <LogLevel>Off</LogLevel>
+            <EmailProtocol>Imap</EmailProtocol>
+            <Type>Local</Type>
+            <sharedConnectionName />
+            <WebProtocol>Ftp</WebProtocol>
+            <Protocol>Ftp</Protocol>
+            <Details xsi:type="FtpsProtocolDetails">
+              <UseProxy>false</UseProxy>
+              <ProxyPort>8080</ProxyPort>
+              <ProxyType>Socks4</ProxyType>
+              <LogLevel>Off</LogLevel>
+              <DisableSftp4>false</DisableSftp4>
+              <ProxyLoginName />
+              <ProxyPassword />
+              <PassiveMode>true</PassiveMode>
+              <SecurityType>None</SecurityType>
+              <AllowTls1>false</AllowTls1>
+              <AllowSsl3>false</AllowSsl3>
+              <AllowedSuites>AllCiphers</AllowedSuites>
+              <ClearCommandChannel>false</ClearCommandChannel>
+              <DirectoryChangeRequired>false</DirectoryChangeRequired>
+              <AcceptIfCertificateNotAuthenticated>false</AcceptIfCertificateNotAuthenticated>
+              <SecureConnection>false</SecureConnection>
+              <KeepSessionAliveDuringTransfer>false</KeepSessionAliveDuringTransfer>
+              <SessionKeepAliveInterval>30</SessionKeepAliveInterval>
+            </Details>
+            <ProviderType>None</ProviderType>
+          </FtpConnectInfo>
+          <NoSqlProvider>MongoDb</NoSqlProvider>
+        </DbInfo>
+        <SharingConnection>false</SharingConnection>
+        <CDCAuditFieldFile>
+          <Path />
+          <UncPath />
+        </CDCAuditFieldFile>
+        <PerformFullLoad>false</PerformFullLoad>
+        <PerformCDC>false</PerformCDC>
+        <WhereClause />
+        <IncrementalReadStrategy>None</IncrementalReadStrategy>
+      </DataflowItemDataSourceDatabase>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>cc62b7cb-6d58-4628-9177-39878a795611</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>cc62b7cb-6d58-4628-9177-39878a795611</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Passthru2</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>326</Height>
+            <Width>200</Width>
+            <X>643.04</X>
+            <Y>181</Y>
+            <IsExpanded>true</IsExpanded>
+            <ActualExpandedHeight>0</ActualExpandedHeight>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Passthru</Name>
+      </ActionProperties>
+      <DataflowItemDataPassthrough2>
+        <Name>Passthru</Name>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="Passthru" /&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Passthru</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField DataType="Integer" IsPrimaryKey="true" Index="0" AllowsNull="false" Name="EmployeeID">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>Int32</CoreDbType>
+              <DbDataTypeName>int</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="20" DataType="String" Index="1" AllowsNull="false" Name="LastName">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="10" DataType="String" Index="2" AllowsNull="false" Name="FirstName">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="30" DataType="String" Index="3" Name="Title">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="25" DataType="String" Index="4" Name="TitleOfCourtesy">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField DataType="Date" Index="5" Name="BirthDate">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>DateTime</CoreDbType>
+              <DbDataTypeName>date</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField DataType="Date" Index="6" Name="HireDate">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>DateTime</CoreDbType>
+              <DbDataTypeName>date</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="60" DataType="String" Index="7" Name="Address">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="15" DataType="String" Index="8" Name="City">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="15" DataType="String" Index="9" Name="Region">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="10" DataType="String" Index="10" Name="PostalCode">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="15" DataType="String" Index="11" Name="Country">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="24" DataType="String" Index="12" Name="HomePhone">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="4" DataType="String" Index="13" Name="Extension">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField DataType="Image" Index="14" Name="Photo">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>Blob</CoreDbType>
+              <DbDataTypeName>image</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField DataType="String" Index="15" Name="Notes">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NText</CoreDbType>
+              <DbDataTypeName>char</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField DataType="Integer" Index="16" Name="ReportsTo">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>Int32</CoreDbType>
+              <DbDataTypeName>int</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+            <RecordField Length="255" DataType="String" Index="17" Name="PhotoPath">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <CoreDbType>NVarChar</CoreDbType>
+              <DbDataTypeName>nvarchar</DbDataTypeName>
+              <DecimalLength>0</DecimalLength>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Layout>
+        <SkipCount>0</SkipCount>
+        <TopCount>0</TopCount>
+        <RemoveMappedMemberRecordsWithAllNullValues>false</RemoveMappedMemberRecordsWithAllNullValues>
+      </DataflowItemDataPassthrough2>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>83319ab1-675e-4af4-b547-e0303b73cb81</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>83319ab1-675e-4af4-b547-e0303b73cb81</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>487</Height>
+            <Width>200</Width>
+            <X>1022.04</X>
+            <Y>142</Y>
+            <IsExpanded>true</IsExpanded>
+            <ActualExpandedHeight>0</ActualExpandedHeight>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>ExcelDest</Name>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>ExcelDest</Name>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="ExcelDest" /&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>ExcelDest</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField DataType="Integer" IsPrimaryKey="true" Index="0" AllowsNull="false" Name="EmployeeID">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="20" DataType="String" Index="1" AllowsNull="false" Name="LastName">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="10" DataType="String" Index="2" AllowsNull="false" Name="FirstName">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="30" DataType="String" Index="3" Name="Title">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="25" DataType="String" Index="4" Name="TitleOfCourtesy">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="Date" Index="5" Name="BirthDate">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="Date" Index="6" Name="HireDate">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="60" DataType="String" Index="7" Name="Address">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="15" DataType="String" Index="8" Name="City">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="15" DataType="String" Index="9" Name="Region">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="10" DataType="String" Index="10" Name="PostalCode">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="15" DataType="String" Index="11" Name="Country">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="24" DataType="String" Index="12" Name="HomePhone">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="4" DataType="String" Index="13" Name="Extension">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="Base64" Index="14" Name="Photo">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="String" Index="15" Name="Notes">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="Integer" Index="16" Name="ReportsTo">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField Length="255" DataType="String" Index="17" Name="PhotoPath">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="D:\CP Git\output.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <VectorSeparator>;</VectorSeparator>
+            <FilePathResolved>
+              <Path>D:\CP Git\output.xls</Path>
+              <UncPath>D:\CP Git\output.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+          <HasContext>false</HasContext>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <IsDataValidationEnabled>true</IsDataValidationEnabled>
+        <IsDataProfilingEnabled>true</IsDataProfilingEnabled>
+        <WriteToUniqueFiles>false</WriteToUniqueFiles>
+        <FilePath>D:\CP Git\output.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths />
+        <UsesSourceFieldPaths>false</UsesSourceFieldPaths>
+        <IsReport>false</IsReport>
+        <ExportMode>false</ExportMode>
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps>
+    <FlowDocumentItemMap>
+      <Start>Passthru.PhotoPath</Start>
+      <End>ExcelDest.PhotoPath</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.ReportsTo</Start>
+      <End>ExcelDest.ReportsTo</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.Notes</Start>
+      <End>ExcelDest.Notes</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.Photo</Start>
+      <End>ExcelDest.Photo</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.Extension</Start>
+      <End>ExcelDest.Extension</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.HomePhone</Start>
+      <End>ExcelDest.HomePhone</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.Country</Start>
+      <End>ExcelDest.Country</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.PostalCode</Start>
+      <End>ExcelDest.PostalCode</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.Region</Start>
+      <End>ExcelDest.Region</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.City</Start>
+      <End>ExcelDest.City</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.Address</Start>
+      <End>ExcelDest.Address</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.HireDate</Start>
+      <End>ExcelDest.HireDate</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.BirthDate</Start>
+      <End>ExcelDest.BirthDate</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.TitleOfCourtesy</Start>
+      <End>ExcelDest.TitleOfCourtesy</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.Title</Start>
+      <End>ExcelDest.Title</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.FirstName</Start>
+      <End>ExcelDest.FirstName</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.LastName</Start>
+      <End>ExcelDest.LastName</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>Passthru.EmployeeID</Start>
+      <End>ExcelDest.EmployeeID</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.PhotoPath</Start>
+      <End>Passthru.PhotoPath</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.ReportsTo</Start>
+      <End>Passthru.ReportsTo</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.Notes</Start>
+      <End>Passthru.Notes</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.Photo</Start>
+      <End>Passthru.Photo</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.Extension</Start>
+      <End>Passthru.Extension</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.HomePhone</Start>
+      <End>Passthru.HomePhone</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.Country</Start>
+      <End>Passthru.Country</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.PostalCode</Start>
+      <End>Passthru.PostalCode</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.Region</Start>
+      <End>Passthru.Region</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.City</Start>
+      <End>Passthru.City</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.Address</Start>
+      <End>Passthru.Address</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.HireDate</Start>
+      <End>Passthru.HireDate</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.BirthDate</Start>
+      <End>Passthru.BirthDate</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.TitleOfCourtesy</Start>
+      <End>Passthru.TitleOfCourtesy</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.Title</Start>
+      <End>Passthru.Title</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.FirstName</Start>
+      <End>Passthru.FirstName</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.LastName</Start>
+      <End>Passthru.LastName</End>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>DatabaseSource.EmployeeID</Start>
+      <End>Passthru.EmployeeID</End>
+    </FlowDocumentItemMap>
+  </Maps>
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>8922a4e9-b631-4a8f-a8fc-d487037f89c3</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Item1>108.03999328613281</Item1>
+      <Item2>127</Item2>
+      <Item3>1114</Item3>
+      <Item4>517</Item4>
+    </DocumentBounds>
+    <DocumentPosition>
+      <Item1>0</Item1>
+      <Item2>0</Item2>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <IsSelected>false</IsSelected>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <Repository>D:\CP Git\API.cprj</Repository>
+  <IsReadyForPreview>false</IsReadyForPreview>
+</DataflowDocument>
