@@ -28,8 +28,8 @@
           <NormalBounds>
             <Height>200</Height>
             <Width>200</Width>
-            <X>88.03999</X>
-            <Y>176</Y>
+            <X>89.03999</X>
+            <Y>154</Y>
             <IsExpanded>true</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -345,12 +345,6 @@
         <OutboundTransform>
           <Transforms />
         </OutboundTransform>
-        <CanPushdown>true</CanPushdown>
-        <IsDynamicLayout>false</IsDynamicLayout>
-        <DynamicLayoutOptions>
-          <DeleteFieldsInSubsequentObjects>true</DeleteFieldsInSubsequentObjects>
-          <AddFieldsInSubsequentObjects>true</AddFieldsInSubsequentObjects>
-        </DynamicLayoutOptions>
         <DbInfo Port="1433" CreateNewTable="true" DataProvider="SqlServer" Server="localhost" Database="NORTHWND" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="E73190FE8B2497A8672FB3626F45E98F1C295B0A0ABCF8817A24E39C4D25BAF8" TableName="Employees" TableSchema="dbo">
           <FtpConnectInfo>
             <Authentication>
@@ -416,7 +410,13 @@
           </FtpConnectInfo>
           <NoSqlProvider>MongoDb</NoSqlProvider>
         </DbInfo>
+        <CanPushdown>true</CanPushdown>
         <SharingConnection>false</SharingConnection>
+        <IsDynamicLayout>false</IsDynamicLayout>
+        <DynamicLayoutOptions>
+          <DeleteFieldsInSubsequentObjects>true</DeleteFieldsInSubsequentObjects>
+          <AddFieldsInSubsequentObjects>true</AddFieldsInSubsequentObjects>
+        </DynamicLayoutOptions>
         <CDCAuditFieldFile>
           <Path />
           <UncPath />
@@ -960,13 +960,13 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>9489474d-c33d-42f3-baad-6346040c9642</UniqueId>
+    <UniqueId>ca35b68e-3251-4a03-b472-2491ca139805</UniqueId>
     <Actions />
     <DocumentBounds>
-      <Item1>88.03999328613281</Item1>
-      <Item2>67</Item2>
-      <Item3>1074</Item3>
-      <Item4>517</Item4>
+      <Item1>89.03999328613281</Item1>
+      <Item2>82</Item2>
+      <Item3>1073</Item3>
+      <Item4>487</Item4>
     </DocumentBounds>
     <DocumentPosition>
       <Item1>0</Item1>
