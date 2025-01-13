@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedAction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="8.0.0.179">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>D:\CP Git\Shared Connections1\SharedAction2.Sact</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <Views />
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>de68a5f9-d205-4e04-8830-5708651900f4</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>de68a5f9-d205-4e04-8830-5708651900f4</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelSource</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>90.04</X>
+            <Y>142</Y>
+            <IsExpanded>false</IsExpanded>
+            <ActualExpandedHeight>0</ActualExpandedHeight>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>ExcelSource</Name>
+      </ActionProperties>
+      <DataflowItemDataSourceExcel>
+        <Name>ExcelSource</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>ExcelSource</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField DataType="String" Header="Mada Communications SA -tyntec_drt16-01-2024" Index="0" Name="Mada_Communications_SA__tyntec_drt16_01_2024">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="String" Header="Mada Communications SA -tyntec_drt16-01-2024" Index="1" Name="Mada_Communications_SA__tyntec_drt16_01_2024_1">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="String" Header="Mada Communications SA -tyntec_drt16-01-2024" Index="2" Name="Mada_Communications_SA__tyntec_drt16_01_2024_2">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="String" Header="Mada Communications SA -tyntec_drt16-01-2024" Index="3" Name="Mada_Communications_SA__tyntec_drt16_01_2024_3">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="String" Header="Mada Communications SA -tyntec_drt16-01-2024" Index="4" Name="Mada_Communications_SA__tyntec_drt16_01_2024_4">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField DataType="String" Header="Mada Communications SA -tyntec_drt16-01-2024" Index="5" Name="Mada_Communications_SA__tyntec_drt16_01_2024_5">
+              <AggregateFunction>Last</AggregateFunction>
+              <DbProviderType>SqlServer</DbProviderType>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="2147483647" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" TreatAsIfFirstRowContainsHeaders="true" FilePath="C:\Users\aftab.ahmed\Documents\6.xls" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1" ReadAllSheets="false">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path>C:\Users\aftab.ahmed\Documents\6.xls</Path>
+              <UncPath>C:\Users\aftab.ahmed\Documents\6.xls</UncPath>
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <HasContext>false</HasContext>
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Normal</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <FilePath>C:\Users\aftab.ahmed\Documents\6.xls</FilePath>
+        <CanStage>true</CanStage>
+        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
+        <IsDynamicLayout>false</IsDynamicLayout>
+        <DynamicLayoutOptions>
+          <DeleteFieldsInSubsequentObjects>true</DeleteFieldsInSubsequentObjects>
+          <AddFieldsInSubsequentObjects>true</AddFieldsInSubsequentObjects>
+        </DynamicLayoutOptions>
+      </DataflowItemDataSourceExcel>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps />
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>c6c74b86-a4e5-4932-9dab-f5ee2a50c8f5</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Item1>90.04000091552734</Item1>
+      <Item2>142</Item2>
+      <Item3>200</Item3>
+      <Item4>39</Item4>
+    </DocumentBounds>
+    <DocumentPosition>
+      <Item1>0</Item1>
+      <Item2>0</Item2>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <IsSelected>false</IsSelected>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <Repository>D:\CP Git\API.cprj</Repository>
+  <IsReadyForPreview>false</IsReadyForPreview>
+</SharedAction>
