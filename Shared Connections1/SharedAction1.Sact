@@ -28,8 +28,8 @@
           <NormalBounds>
             <Height>39</Height>
             <Width>200</Width>
-            <X>472.03998</X>
-            <Y>265</Y>
+            <X>594.04</X>
+            <Y>367</Y>
             <IsExpanded>false</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -44,6 +44,7 @@
       <DataflowItemDataSourceDelimited>
         <Name>DelimitedSource</Name>
         <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="DelimitedSource" /&gt;</ParameterXml>
         <AutoLog>false</AutoLog>
         <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
         <Layout xsi:type="DelimitedLayout" IsHierarchicalFile="false">
@@ -180,11 +181,11 @@
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>56d12eb7-4c2b-49af-80a5-dd7b3f4f9f2d</UniqueId>
+    <UniqueId>ddd70f89-9be5-48e6-9bdf-724fbc7e76d7</UniqueId>
     <Actions />
     <DocumentBounds>
-      <Item1>472.03997802734375</Item1>
-      <Item2>265</Item2>
+      <Item1>594.0399780273438</Item1>
+      <Item2>367</Item2>
       <Item3>200</Item3>
       <Item4>39</Item4>
     </DocumentBounds>
