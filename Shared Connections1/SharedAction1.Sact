@@ -13,23 +13,23 @@
   <Actions>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>42c00113-0362-49be-a64c-dbb43e63410f</UniqueId>
+        <UniqueId>fee9bdd2-9401-4409-9044-dadeb7b109ce</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>42c00113-0362-49be-a64c-dbb43e63410f</ActionId>
+        <ActionId>fee9bdd2-9401-4409-9044-dadeb7b109ce</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>DelimitedSource</ActionTemplateName>
+        <ActionTemplateName>ExcelSource</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
             <Height>39</Height>
             <Width>200</Width>
-            <X>607.04</X>
-            <Y>409</Y>
+            <X>380</X>
+            <Y>375</Y>
             <IsExpanded>false</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -39,115 +39,107 @@
         <IsHidden>false</IsHidden>
         <SourceActionRole>Normal</SourceActionRole>
         <DoNotPushdown>false</DoNotPushdown>
-        <Name>DelimitedSource</Name>
+        <Name>ExcelSource</Name>
       </ActionProperties>
-      <DataflowItemDataSourceDelimited>
-        <Name>DelimitedSource</Name>
+      <DataflowItemDataSourceExcel>
+        <Name>ExcelSource</Name>
         <IsShared>false</IsShared>
-        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="DelimitedSource" /&gt;</ParameterXml>
         <AutoLog>false</AutoLog>
         <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
-        <Layout xsi:type="DelimitedLayout" IsHierarchicalFile="false">
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
           <IsFolder>false</IsFolder>
           <Id>0</Id>
           <IsNewRecord>false</IsNewRecord>
-          <Name>DelimitedSource</Name>
+          <Name>ExcelSource</Name>
           <Description />
           <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
           <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
           <IsSharedLayout>false</IsSharedLayout>
           <LayoutBuildingOptions>
-            <RecordType>Delimited</RecordType>
+            <RecordType>ExcelSheet</RecordType>
             <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
             <LayoutBuildingProcess>Default</LayoutBuildingProcess>
           </LayoutBuildingOptions>
           <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
           <Fields>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="9" DataType="Integer" Index="0" Name="EmployeeID">
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="5" DataType="String" Index="0" Name="CustomerID">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="9" DataType="String" Index="1" Name="LastName">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="36" DataType="String" Index="1" Name="CompanyName">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="8" DataType="String" Index="2" Name="FirstName">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="23" DataType="String" Index="2" Name="ContactName">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="24" DataType="String" Index="3" Name="Title">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="30" DataType="String" Index="3" Name="ContactTitle">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="4" DataType="String" Index="4" Name="TitleOfCourtesy">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="46" DataType="String" Index="4" Name="Address">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="21" DataType="Date" Index="5" Name="BirthDate">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="15" DataType="String" Index="5" Name="City">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="22" DataType="Date" Index="6" Name="HireDate">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="13" DataType="String" Index="6" Name="Region">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="21" DataType="String" Index="7" Name="Address">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="12209" DataType="String" Index="7" Name="PostalCode">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="8" DataType="String" Index="8" Name="City">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="11" DataType="String" Index="8" Name="Country">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="2" DataType="String" Index="9" Name="Region">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="17" DataType="String" Index="9" Name="Phone">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="7" MaxNumericValueInLayoutBuilding="98401" DataType="String" Index="10" Name="PostalCode">
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="17" DataType="String" Index="10" Name="Fax">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="3" DataType="String" Index="11" Name="Country">
-              <AggregateFunction>Last</AggregateFunction>
-              <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="14" DataType="String" Index="12" Name="HomePhone">
-              <AggregateFunction>Last</AggregateFunction>
-              <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="4" MaxNumericValueInLayoutBuilding="5176" DataType="Integer" Index="13" Name="Extension">
-              <AggregateFunction>Last</AggregateFunction>
-              <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="28964" DataType="String" Index="14" Name="Photo">
-              <AggregateFunction>Last</AggregateFunction>
-              <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="448" DataType="String" Index="15" Name="Notes">
-              <AggregateFunction>Last</AggregateFunction>
-              <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="5" DataType="Integer" Index="16" Name="ReportsTo">
-              <AggregateFunction>Last</AggregateFunction>
-              <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
-            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="38" DataType="String" Index="17" Name="PhotoPath">
-              <AggregateFunction>Last</AggregateFunction>
-              <DbProviderType>SqlServer</DbProviderType>
-            </DelimitedLayoutField>
+              <SortOrder>Ascending</SortOrder>
+              <Hide>false</Hide>
+            </ExcelLayoutField>
           </Fields>
           <Children />
           <Referenced />
           <ValidationRules />
-          <IsWebServerLogFile>false</IsWebServerLogFile>
-          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="50000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" TreatAsIfFirstRowContainsHeaders="false" FilePath="C:\Users\aftab.ahmed\Documents\temp.csv" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" AllowRecordDelimiterInsideField="false" FieldDelimiterString="&lt;Comma&gt;" RecordDelimiter="&#xD;&#xA;" QuoteChar="34">
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="2147483647" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" TreatAsIfFirstRowContainsHeaders="true" FilePath="C:\Users\aftab.ahmed\Documents\oooooo.xls" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1" ReadAllSheets="false">
             <FilterRules />
             <DeleteFileWhenDone>false</DeleteFileWhenDone>
             <PreparserFilterRegularExpression />
             <UseParallelStream>true</UseParallelStream>
             <FilePathResolved>
-              <Path>C:\Users\aftab.ahmed\Documents\temp.csv</Path>
-              <UncPath>C:\Users\aftab.ahmed\Documents\temp.csv</UncPath>
+              <Path>C:\Users\aftab.ahmed\Documents\oooooo.xls</Path>
+              <UncPath>C:\Users\aftab.ahmed\Documents\oooooo.xls</UncPath>
             </FilePathResolved>
             <SkipFirstNBytes>0</SkipFirstNBytes>
             <HierarchyDefinitionPath>
@@ -156,9 +148,6 @@
             </HierarchyDefinitionPath>
             <ProcessOnlyRecordsStartingWith />
           </DefaultReaderOptions>
-          <HierarchicalProperties>
-            <IsCaseSensitive>false</IsCaseSensitive>
-          </HierarchicalProperties>
           <HasContext>false</HasContext>
         </Layout>
         <ContinueIterationOnError>false</ContinueIterationOnError>
@@ -166,7 +155,7 @@
         <OutboundTransform>
           <Transforms />
         </OutboundTransform>
-        <FilePath>C:\Users\aftab.ahmed\Documents\temp.csv</FilePath>
+        <FilePath>C:\Users\aftab.ahmed\Documents\oooooo.xls</FilePath>
         <CanStage>true</CanStage>
         <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
         <IsDynamicLayout>false</IsDynamicLayout>
@@ -174,18 +163,18 @@
           <DeleteFieldsInSubsequentObjects>true</DeleteFieldsInSubsequentObjects>
           <AddFieldsInSubsequentObjects>true</AddFieldsInSubsequentObjects>
         </DynamicLayoutOptions>
-      </DataflowItemDataSourceDelimited>
+      </DataflowItemDataSourceExcel>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>1b17f241-97ad-4e98-a1eb-07bb3e7c1fe6</UniqueId>
+    <UniqueId>d47aefac-56ba-425e-be9a-16f93c1851f8</UniqueId>
     <Actions />
     <DocumentBounds>
-      <Item1>607.0399780273438</Item1>
-      <Item2>409</Item2>
+      <Item1>380</Item1>
+      <Item2>375</Item2>
       <Item3>200</Item3>
       <Item4>39</Item4>
     </DocumentBounds>
