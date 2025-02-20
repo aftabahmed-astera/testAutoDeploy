@@ -66,81 +66,118 @@
             <DbLayoutField DataType="Integer" IsPrimaryKey="true" Index="0" AllowsNull="false" Name="EmployeeID" DbDataTypeName="int" CoreDbType="Int32" IsSystemGenerated="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>becc4f71-566d-41ae-82cf-0396505fb270</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="20" DataType="String" Index="1" AllowsNull="false" Name="LastName" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>e4736ca8-2c3a-4a90-ac85-6caffc566afb</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="10" DataType="String" Index="2" AllowsNull="false" Name="FirstName" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>dc0ac874-024a-434f-8ae6-6b410e417897</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="30" DataType="String" Index="3" Name="Title" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>14f18ea4-a5ca-4048-bd72-c0de6bc81795</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="25" DataType="String" Index="4" Name="TitleOfCourtesy" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>76e6fe2f-1e4f-4474-84ac-f83cf398a267</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField DataType="Date" Index="5" Name="BirthDate" DbDataTypeName="date" CoreDbType="DateTime">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>1db41082-a025-43a6-8bc8-773b3d10cd96</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField DataType="Date" Index="6" Name="HireDate" DbDataTypeName="date" CoreDbType="DateTime">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>5daf86c9-794e-4cd0-bd5c-fd8d083fb702</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="60" DataType="String" Index="7" Name="Address" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>86dfd461-0ee1-4d16-801e-7bdb418cffa0</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="15" DataType="String" Index="8" Name="City" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>88c34336-1f69-4ce3-8249-f02a3b8b5374</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="15" DataType="String" Index="9" Name="Region" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>7d0af067-4bfd-48ee-9bf6-d9843083a248</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="10" DataType="String" Index="10" Name="PostalCode" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>fe0737ca-3dfd-489e-b3bb-a9e413244319</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="15" DataType="String" Index="11" Name="Country" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>382d9b5f-47d6-42d0-a5d1-9621e621162e</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="24" DataType="String" Index="12" Name="HomePhone" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>b2675422-2543-4c0b-9e17-bf54433661f7</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField Length="4" DataType="String" Index="13" Name="Extension" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>efe311df-abca-4afd-968c-6b041e0d5dce</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField DataType="Image" Index="14" Name="Photo" DbDataTypeName="image" CoreDbType="Blob">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>1a6db0a4-c012-49af-a706-edd4341752ac</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField DataType="String" Index="15" Name="Notes" DbDataTypeName="char" CoreDbType="NText">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>bb856bae-36d3-4ce2-969b-10099450a00a</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
             <DbLayoutField DataType="Integer" Index="16" Name="ReportsTo" DbDataTypeName="int" CoreDbType="Int32">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>3e881af2-6e03-4319-a8f3-5b72d0ca4a26</UniqueId>
+              <RelatedScdFieldNameList />
               <IsForeignKey>true</IsForeignKey>
             </DbLayoutField>
             <DbLayoutField Length="255" DataType="String" Index="17" Name="PhotoPath" DbDataTypeName="nvarchar" CoreDbType="NVarChar" IsLengthAllowed="true" IsLengthRequired="true">
               <AggregateFunction>None</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>61e2355e-8877-43ef-9bec-0237ad17584a</UniqueId>
+              <RelatedScdFieldNameList />
             </DbLayoutField>
           </Fields>
           <Children />
           <Referenced />
           <ValidationRules />
           <DbInfo Port="1433" CreateNewTable="true" DataProvider="SqlServer" Server="localhost" Database="NORTHWND" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="E73190FE8B2497A8672FB3626F45E98F1C295B0A0ABCF8817A24E39C4D25BAF8" TableName="Employees" TableSchema="dbo">
+            <Isolation>Database</Isolation>
             <FtpConnectInfo>
               <Authentication>
                 <AuthenticationMethod>None</AuthenticationMethod>
@@ -346,6 +383,7 @@
           <Transforms />
         </OutboundTransform>
         <DbInfo Port="1433" CreateNewTable="true" DataProvider="SqlServer" Server="localhost" Database="NORTHWND" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="E73190FE8B2497A8672FB3626F45E98F1C295B0A0ABCF8817A24E39C4D25BAF8" TableName="Employees" TableSchema="dbo">
+          <Isolation>Database</Isolation>
           <FtpConnectInfo>
             <Authentication>
               <AuthenticationMethod>None</AuthenticationMethod>
@@ -444,8 +482,8 @@
           <NormalBounds>
             <Height>326</Height>
             <Width>200</Width>
-            <X>603.04</X>
-            <Y>141</Y>
+            <X>588.04</X>
+            <Y>48</Y>
             <IsExpanded>true</IsExpanded>
             <ActualExpandedHeight>0</ActualExpandedHeight>
             <IsSorted>false</IsSorted>
@@ -482,6 +520,7 @@
             <RecordField DataType="Integer" IsPrimaryKey="true" Index="0" AllowsNull="false" Name="EmployeeID">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>6473d1d9-ab17-42d3-86d8-2d3d7e46410f</UniqueId>
               <CoreDbType>Int32</CoreDbType>
               <DbDataTypeName>int</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -489,6 +528,7 @@
             <RecordField Length="20" DataType="String" Index="1" AllowsNull="false" Name="LastName">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>4e47145c-ec9a-49a8-9cc2-4160c7d8372a</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -496,6 +536,7 @@
             <RecordField Length="10" DataType="String" Index="2" AllowsNull="false" Name="FirstName">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>bc63fd2e-0cd8-4e9e-be41-304aaab6a2ed</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -503,6 +544,7 @@
             <RecordField Length="30" DataType="String" Index="3" Name="Title">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>ba7caed1-f213-426b-8d53-a95520fe04af</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -510,6 +552,7 @@
             <RecordField Length="25" DataType="String" Index="4" Name="TitleOfCourtesy">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>75e3c3ec-1e16-475b-844a-5be2e83d0769</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -517,6 +560,7 @@
             <RecordField DataType="Date" Index="5" Name="BirthDate">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>1aef7668-c208-45cd-9e24-29dec12fe90a</UniqueId>
               <CoreDbType>DateTime</CoreDbType>
               <DbDataTypeName>date</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -524,6 +568,7 @@
             <RecordField DataType="Date" Index="6" Name="HireDate">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>e6ce61d1-88bb-43ec-ab8d-d4ac4c1d7983</UniqueId>
               <CoreDbType>DateTime</CoreDbType>
               <DbDataTypeName>date</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -531,6 +576,7 @@
             <RecordField Length="60" DataType="String" Index="7" Name="Address">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>5c0e87c7-b8df-4b55-92ca-500bde2d6b9e</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -538,6 +584,7 @@
             <RecordField Length="15" DataType="String" Index="8" Name="City">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>7df2786e-7711-48a8-a6be-056e1b0ec9a8</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -545,6 +592,7 @@
             <RecordField Length="15" DataType="String" Index="9" Name="Region">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>fb65ad13-29da-4b11-822b-4b33f145b84e</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -552,6 +600,7 @@
             <RecordField Length="10" DataType="String" Index="10" Name="PostalCode">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>c8fbfda5-e096-4ac0-84d7-bb517c148ac3</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -559,6 +608,7 @@
             <RecordField Length="15" DataType="String" Index="11" Name="Country">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>4fd52df2-4d76-4d39-932e-ae051c4d7362</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -566,6 +616,7 @@
             <RecordField Length="24" DataType="String" Index="12" Name="HomePhone">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>8f77c537-68ba-4f08-9628-dd8e3d82bce0</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -573,6 +624,7 @@
             <RecordField Length="4" DataType="String" Index="13" Name="Extension">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>4e5fbcb9-29bd-44f6-b101-3ca7a72fc1a2</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -580,6 +632,7 @@
             <RecordField DataType="Image" Index="14" Name="Photo">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>dd41670c-67d9-484d-9187-cec661164030</UniqueId>
               <CoreDbType>Blob</CoreDbType>
               <DbDataTypeName>image</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -587,6 +640,7 @@
             <RecordField DataType="String" Index="15" Name="Notes">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>b413c0c9-6bc4-43b9-8e93-a10fe797c852</UniqueId>
               <CoreDbType>NText</CoreDbType>
               <DbDataTypeName>char</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -594,6 +648,7 @@
             <RecordField DataType="Integer" Index="16" Name="ReportsTo">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>f53889ed-1c87-4653-9e5d-fb2da6945c3d</UniqueId>
               <CoreDbType>Int32</CoreDbType>
               <DbDataTypeName>int</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -601,6 +656,7 @@
             <RecordField Length="255" DataType="String" Index="17" Name="PhotoPath">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>d0c7d41f-08c3-48c4-a0fe-78a3915fe8a4</UniqueId>
               <CoreDbType>NVarChar</CoreDbType>
               <DbDataTypeName>nvarchar</DbDataTypeName>
               <DecimalLength>0</DecimalLength>
@@ -670,108 +726,126 @@
             <ExcelLayoutField DataType="Integer" IsPrimaryKey="true" Index="0" AllowsNull="false" Name="EmployeeID">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>39a62f4f-2536-4ba9-9036-4f73cad7290e</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="20" DataType="String" Index="1" AllowsNull="false" Name="LastName">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>91c19ce0-3767-4fb8-9f27-613cc361e650</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="10" DataType="String" Index="2" AllowsNull="false" Name="FirstName">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>64c5d1dd-aff3-4e09-bec7-1be9b543a0b2</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="30" DataType="String" Index="3" Name="Title">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>48d0e318-4e75-46f8-911a-8e124a88b0e3</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="25" DataType="String" Index="4" Name="TitleOfCourtesy">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>c8ee7022-6752-4558-a3c5-a6065a191f30</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField DataType="Date" Index="5" Name="BirthDate">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>caf9cec7-9ba7-40db-975d-3c8cb813dd30</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField DataType="Date" Index="6" Name="HireDate">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>858b1382-a409-4b43-9614-5db299d08e5c</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="60" DataType="String" Index="7" Name="Address">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>3c0dbfbc-3179-47f1-85eb-dbac4bdf1951</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="15" DataType="String" Index="8" Name="City">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>10b186cb-6599-4202-825b-dcafeff5f9a4</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="15" DataType="String" Index="9" Name="Region">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>9b3db8d0-c2e3-4eb2-9f50-d61fc5edaa01</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="10" DataType="String" Index="10" Name="PostalCode">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>c618dd76-0a3e-4cd4-a43c-29b9cc4a2813</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="15" DataType="String" Index="11" Name="Country">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>10908d88-bccc-432c-9475-826ab46c8b79</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="24" DataType="String" Index="12" Name="HomePhone">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>298d2e21-5801-4088-baa1-01bd4fe7c4a4</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="4" DataType="String" Index="13" Name="Extension">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>4661422f-0ed3-42ae-96a3-53ab24b7fc10</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField DataType="Base64" Index="14" Name="Photo">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>8de670a0-3ed7-4b38-ba3d-659cc99bf672</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField DataType="String" Index="15" Name="Notes">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>8cc552e5-301f-42f7-8758-f5aafd9a0531</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField DataType="Integer" Index="16" Name="ReportsTo">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>ba6e629f-35b7-4f67-bf7c-6989dc111b3b</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
             <ExcelLayoutField Length="255" DataType="String" Index="17" Name="PhotoPath">
               <AggregateFunction>Last</AggregateFunction>
               <DbProviderType>SqlServer</DbProviderType>
+              <UniqueId>63854646-11fd-44b7-b59b-fcb334d73036</UniqueId>
               <SortOrder>Ascending</SortOrder>
               <Hide>false</Hide>
             </ExcelLayoutField>
@@ -960,13 +1034,13 @@
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>8782f4ad-5495-48af-957c-8e5b8490ee80</UniqueId>
+    <UniqueId>79c4b672-04ca-444c-ba5a-7fe4b884b49b</UniqueId>
     <Actions />
     <DocumentBounds>
       <Item1>90.03999328613281</Item1>
-      <Item2>82</Item2>
+      <Item2>48</Item2>
       <Item3>1072</Item3>
-      <Item4>487</Item4>
+      <Item4>521</Item4>
     </DocumentBounds>
     <DocumentPosition>
       <Item1>0</Item1>
